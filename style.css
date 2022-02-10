@@ -1,0 +1,56 @@
+#container {
+    width: 40%;
+}
+
+#title {
+    margin: 5% 5%;
+    color: rgb(112, 112, 112);
+    font-family: "Didact Gothic",sans-serif;
+    
+}
+
+#content {
+    margin: 5% 5%;
+    color: rgba(0, 0, 0, 0.781);
+    font-family: "Didact Gothic",sans-serif;
+}
+
+label{
+    color: rgb(112, 112, 112);
+}
+
+button{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    background-color: rgb(109, 40, 217);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(71, 24, 146);;
+}
+
+.form-control:focus ,.form-select:focus {
+    border-color: rgb(109, 40, 217);
+    box-shadow: none
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) { 
+    #container {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
